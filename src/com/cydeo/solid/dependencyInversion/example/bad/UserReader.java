@@ -1,6 +1,6 @@
 package com.cydeo.solid.dependencyInversion.example.bad;
 
-public class UserReader {
+public class UserReader{
 
     private XMLReader xmlReader;  // What happens if we decide to use JSON format instead of XML format?
 //    private JSONReader jsonReader;
@@ -14,7 +14,7 @@ public class UserReader {
     }
 
 //    public String getUsernameFromJSON() {
-//        return jsonReader.getUsername();
+//        return jsonReader.getUsername() ;
 //    }
 
 }
